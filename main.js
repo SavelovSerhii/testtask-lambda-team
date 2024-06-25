@@ -23,7 +23,7 @@ function getAllPossibleDots() {
     	break;
     }
 
-    let newCombinations = calculateDots(result[word], string.length, result);
+    let newCombinations = calculateDots(result[word], string.length);
 
     if (newCombinations.length) {
     	result.push(...newCombinations);
